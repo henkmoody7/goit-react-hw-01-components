@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const ProfileWrapper = styled.div`
-  margin-left: 30px;
-  margin-top: 30px;
   display: inline-block;
   border: 3px solid black;
   text-align: center;
@@ -11,7 +9,8 @@ export const ProfileWrapper = styled.div`
   background-color: #fdf6f8;
 `;
 
-export const StatsContainer = styled.div`
+export const StatsList = styled.ul`
+  list-style: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -20,4 +19,15 @@ export const StatsContainer = styled.div`
   border: 1px solid black;
   border-radius: 8px;
   background-color: #ffbece;
+`;
+
+export const StatsItem = styled.li`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Username = styled.p`
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 `;
