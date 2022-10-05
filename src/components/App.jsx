@@ -13,8 +13,7 @@ export const App = () => {
       style={{
         display: 'flex',
         flexWrap: 'wrap',
-        margin: 50,
-        gap: 100,
+        gap: '50px',
       }}
     >
       <Profile
